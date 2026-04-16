@@ -1,8 +1,8 @@
-const btn = document.getElementById('');
-const text = document.getElementById('');
+const btn = document.getElementById('btn');
+const text = document.getElementById('text');
 
-btn.addEventListener('', () => {
-
+btn.addEventListener('click', () => {
+  text.textContent = 'ボタンがクリックされました！';
 });
 
 setTimeout(() => {
