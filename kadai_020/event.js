@@ -1,4 +1,4 @@
-const btn = document.getElementById('output-btn');
+const btn = document.getElementById('btn');
 
 btn.addEventListener('click', () => {
   console.log('ボタンをクリックしました！');
