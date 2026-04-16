@@ -6,5 +6,5 @@ btn.addEventListener('click', () => {
 });
 
 setTimeout(() => {
-  console.log('処理（非同期処理）');
-}, 2);
+  text.textContent = '2秒後に表示します！';
+}, 2000);
