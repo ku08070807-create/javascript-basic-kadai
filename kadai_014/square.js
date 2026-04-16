@@ -1,4 +1,4 @@
 const square = (num) => {
-  return num * 10;
+  return num * num;
 };  
-console.log(square(5));
+console.log(square(100));
